@@ -14,7 +14,7 @@ class TableEntry{
 		TableEntry(std::string key){
 			this->key = key;
 		}
-		TableEntry(std::string, V value){
+		TableEntry(std::string key, V value){
 			this->key = key;
 			this->value = value;
 		}
