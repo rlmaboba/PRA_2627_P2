@@ -116,7 +116,7 @@ class BSTree{
 			root = insert(root, e);
 		}
 		friend std::ostream& operator<<(std::ostream &out, const BSTree<T> &bst){
-			bst.print_inorder(out, bst.root) << std::endl;
+			bst.print_inorder(out, bst.root);
 			return out;
 		}
 		void remove(T e){
