@@ -41,7 +41,7 @@ class BSTree{
 		void print_inorder(std::ostream &out, BSNode<T>* n) const{
 			if(n != nullptr){
 				print_inorder(out, n->left);
-				out << n->elem;
+				out << n->elem << " ";
 				print_inorder(out, n->right);
 			}
 		}
